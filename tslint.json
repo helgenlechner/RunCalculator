@@ -1,0 +1,22 @@
+{ 
+    "rules": {
+        "no-consecutive-blank-lines": true,
+        "no-any": true,
+        "member-ordering": [
+            true,
+            { "order": "fields-first" },
+        ],
+        "no-import-side-effect": true,
+        "no-magic-numbers": true,
+        "eofline": true,
+        "trailing-comma": true,
+        "no-duplicate-imports": true,
+        "no-unused-variable": true,
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double",
+            "avoid-template"
+        ]
+    }
+}
